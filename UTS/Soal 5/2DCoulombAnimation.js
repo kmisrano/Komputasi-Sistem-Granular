@@ -146,13 +146,13 @@ function setElementsLayout (){
 	divIn2[1].innerHTML = "y1";
 	divIn2[2].innerHTML = "v1x";
 	divIn2[3].innerHTML = "v1y";
-	divIn2[4].innerHTML = "q1";
+	divIn2[4].innerHTML = "q1(&#181;C)";
 	divIn2[5].innerHTML = "m1";
 	divIn2[6].innerHTML = "x2";
 	divIn2[7].innerHTML = "y2";
 	divIn2[8].innerHTML = "v2x";
 	divIn2[9].innerHTML = "v2y";
-	divIn2[10].innerHTML = "q2";
+	divIn2[10].innerHTML = "q2(&#181;C)";
 	divIn2[11].innerHTML = "m2";
 	divIn2[12].innerHTML = "xmin";
 	divIn2[13].innerHTML = "xmax";
@@ -304,7 +304,7 @@ function setElementsLayout (){
 	div2LoadTitle.style.width = div2btBox.width+"px";
 	div2LoadTitle.style.height = "20px";
 	div2LoadTitle.style.background = "#eee";
-	div2LoadTitle.innerHTML = "Default Data List";
+	div2LoadTitle.innerHTML = "Daftar Data Set:";
 	div2LoadTitle.align = "center";
 	
 	// Create ouput textarea
